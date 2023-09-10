@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 3rem 6rem;
+}
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+h1 {
+  color: #4e5150;
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  text-align: left;
+}
+h2 {
+  color: #333;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.shipping-address {
+  margin-top: 30px;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+.form-groupx {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 20px;
+}
+.form-groupy {
+  margin-bottom: 30px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+.form-groupy div p {
+  color: #4f4f4f;
+  font-size: 12px;
+  font-weight: 600;
+}
+div label {
+  color: #4f4f4f;
+  font-size: 12px;
+  font-weight: 600;
+  color: #4f4f4f;
+}
+.input {
+  width: 400px;
+  height: 40px;
+  border-radius: 12px;
+  border: 1px solid #828282;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+.div-input {
+  width: 190px;
+  height: 40px;
+  border-radius: 12px;
+  border: 1px solid #828282;
+  margin-top: 5px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+.checkbox {
+  width: 21px;
+  height: 21px;
+  border-radius: 4px;
+  color: #828282;
+  margin-right: 10px;
+}
+.button {
+  display: flex;
+  justify-content: flex-end;
+}
+div button {
+  border-radius: 12px;
+  background: #f2994a;
+  padding: 15px 30px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* modal styling */
+.modal-container {
+  width: 24rem;
+  height: auto;
+  border-radius: 12px;
+  background: #f2f2f2;
+  padding: 20px;
+}
+.img-product {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+img {
+  width: 150px;
+  height: 150px;
+  border-radius: 12px;
+}
+.product-price {
+  margin-bottom: 40px;
+}
+.product-name {
+  color: #4e5150;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+span {
+  margin-right: 5px;
+}
+.first-span {
+  color: #f2994a;
+  font-size: 16px;
+  font-weight: 600;
+}
+.in-de {
+  width: 130px;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 12px;
+  font-size: 20px;
+  text-align: center;
+  border: 1px solid #828282;
+}
+.fa-solid {
+  width: 24px;
+  height: 24px;
+  color: #828282;
+}
+.shipping-total {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4rem;
+  gap: 10px;
+}
+.shipping-price {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+.total-price {
+  display: flex;
+  justify-content: space-between;
+}
