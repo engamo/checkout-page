@@ -23,13 +23,13 @@
     <title>Checkout Page</title>
   </head>
   <body>
+    <h1>Checkout</h1>
     <div class="main-container">
       <div class="form-main-container">
-        <h1>Checkout</h1>
         <h2>Contact infomation</h2>
         <form class="form-container">
           <div class="form-group">
-            <div>
+            <div class="label">
               <label for="email">E-mail</label>
             </div>
             <div class="input-container">
@@ -43,7 +43,7 @@
           </div>
 
           <div class="form-group">
-            <div>
+            <div class="label">
               <label for="phone">Phone</label>
             </div>
             <div class="input-container">
@@ -60,7 +60,7 @@
         <h2 class="shipping-address">Shipping address</h2>
         <form>
           <div class="form-group">
-            <div>
+            <div class="label">
               <label for="fullname">Full name</label>
             </div>
             <div class="input-container">
@@ -70,7 +70,7 @@
           </div>
 
           <div class="form-group">
-            <div>
+            <div class="label">
               <label for="address">Address</label>
             </div>
             <div class="input-container">
@@ -79,7 +79,7 @@
             </div>
           </div>
           <div class="form-group">
-            <div>
+            <div class="label">
               <label for="city">City</label>
             </div>
             <div class="input-container">
@@ -90,20 +90,13 @@
 
           <div class="form-groupx">
             <div class="inner-country-postal">
-              <div>
+              <div class="label">
                 <label for="country">Country</label>
               </div>
-              <!-- <div class="input-container">
-                <i class="fa-solid fa-globe icon"></i>
-                <input
-                  type="text"
-                  class="div-input"
-                  placeholder="Your country.."
-                />
-              </div> -->
               <div class="select-container">
+                <i class="fa-solid fa-globe icon"></i>
                 <select>
-                  <option value="" disabled selected hidden>Your Country</option>
+                  <option value="option0"><span class="option">Your Country..</span></option>
                   <option value="option1">Nigeria</option>
                   <option value="option2">Ghana</option>
                   <option value="option3">Togo</option>
@@ -111,11 +104,11 @@
               </div>
             </div>
             <div class="inner-country-postal">
-              <div>
+              <div class="label">
                 <label for="postal code">Postal Code</label>
               </div>
               <div class="input-container">
-                <i class="fa-brands fa-usps icon"></i>
+                <i class="fa-solid fa-address-book icon"></i>
                 <input
                   type="text"
                   class="div-input"
@@ -186,5 +179,9 @@
         </div>
       </div>
     </div>
+
+    <footer class="footer">
+      <small>created by <span>Engamo</span> - devChallenges.io</small>
+    </footer>
   </body>
 </html>
